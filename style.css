@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8fbc8f;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", "serif";
+}
+
+h1 {
+  font-family: "Arial, sans-serif";
+  line-height: 2;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+h3 {
+  font-family: "Arial, sans-serif";
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+hr {
+  border-style: none;
+}
+
+.course {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.navbar {
+  background-color: none;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Spacing between navbar and paragraphs */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.middle-container {
+  margin-top: 20px;
+}
+
+.middle-container p {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  display: inline;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ion-icon[name="logo-twitter"] {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+ion-icon[name="logo-linkedin"] {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
